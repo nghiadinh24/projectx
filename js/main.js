@@ -49,6 +49,15 @@ tl_preloader.to("body", {
 
 // end preloader
 
+
+gsap.to('.dt_progress', {
+    height: '100%',
+    ease: 'sine',
+    scrollTrigger: {
+        scrub: 0.3
+    }
+});
+
 // hero_section scripts
 const tl = gsap.timeline();
 
@@ -180,7 +189,7 @@ ScrollTrigger.create ({
     end: "40% top",
     animation: timeline,
     scrub: 1,
-    markers: true,
+    markers: false,
     pin: true,
 });
 
@@ -225,7 +234,7 @@ ScrollTrigger.create ({
     end: "bottom bottom",
     scrub:1,
     animation: contact_text,
-    markers: true,
+    markers: false,
 });
 
 const contact_cta = gsap.to(".contact_cta",{

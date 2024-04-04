@@ -78,6 +78,34 @@ ol, ul {
 
 /* end preloader */
 
+/* scrollbar */
+
+::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .progress_track {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    right: 0;
+    width: 4px;
+    height: 100%;
+    background-color:  #201F1E;
+  }
+  .progress_track .dt_progress {
+    width: 4px;
+    height: 0;
+    background-color: #F05225;
+  }
+  @media screen and (max-width: 992px) {
+    .progress_track {
+      display: none;
+    }
+  }
+
+/* end scrollbar */
+
 /* header  */
 .navbar {
     position: fixed;
