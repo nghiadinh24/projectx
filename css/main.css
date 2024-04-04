@@ -13,7 +13,10 @@ html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p {
     border: 0;
     font-size: 100%;
 }
-
+html, body {
+    width: 100vw;
+    overflow-x: hidden;
+}
 a {
     text-decoration: none;
 }
@@ -251,7 +254,11 @@ ol, ul {
 /* end about_section */
 
 /* works_section */
-
+@media screen and (max-width:980px) {
+    .works_section {
+        display: none;
+    }
+}
 .works_section {
     height: fit-content;
 }
