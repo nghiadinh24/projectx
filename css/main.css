@@ -114,6 +114,7 @@ ol, ul {
     position: fixed;
     transform: translateY(-30px);
     opacity: 0;
+    overflow: hidden;
 }
 .navbar_row {
     display: flex;
