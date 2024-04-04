@@ -1,0 +1,204 @@
+.color-bg-secondary-gray {
+  background-color: #232323;
+}
+
+.color-bg-gray {
+  background-color: #201f1e;
+}
+
+.color-bg-light-gray {
+  background-color: #b1b1b1;
+}
+
+.color-bg-primary {
+  background-color: #f05225;
+}
+
+.color-bg-light-primary {
+  background-color: #fde6d7;
+}
+
+.color-bg-white {
+  background-color: white;
+}
+
+.color-text-secondary-gray {
+  color: #232323;
+}
+
+.color-text-primary-gray {
+  color: #201f1e;
+}
+
+.color-text-light-gray {
+  color: #b1b1b1;
+}
+
+.color-text-primary {
+  color: #f05225;
+}
+
+.color-text-white {
+  color: white;
+}
+
+.color-icon-secondary-gray {
+  color: #232323;
+}
+
+.color-icon-primary-gray {
+  color: #201f1e;
+}
+
+.color-icon-light-gray {
+  color: #b1b1b1;
+}
+
+.color-icon-primary {
+  color: #f05225;
+}
+
+.color-icon-white {
+  color: white;
+}
+
+.text-40-bold {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  line-height: 48px;
+  font-style: normal;
+  font-size: 40px;
+}
+
+.text-40-regular {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+  line-height: 48px;
+  font-style: normal;
+  font-size: 40px;
+}
+
+.text-32-bold {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  line-height: 40px;
+  font-style: normal;
+  font-size: 32px;
+}
+
+.text-32-regular {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+  line-height: 40px;
+  font-style: normal;
+  font-size: 32px;
+}
+
+.text-28-bold {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  line-height: 36px;
+  font-style: normal;
+  font-size: 28px;
+}
+
+.text-28-regular {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+  line-height: 36px;
+  font-style: normal;
+  font-size: 28px;
+}
+
+.text-24-bold {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  line-height: 32px;
+  font-style: normal;
+  font-size: 24px;
+}
+
+.text-24-regular {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+  line-height: 32px;
+  font-style: normal;
+  font-size: 24px;
+}
+
+.text-20-bold {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  line-height: 28px;
+  font-size: 20px;
+}
+
+.text-20-regular {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+  line-height: 28px;
+  font-size: 20px;
+}
+
+.text-16-bold {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 16px;
+}
+
+.text-16-regular {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+  line-height: 24px;
+  font-size: 16px;
+}
+
+.text-16-md {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+  font-size: 16px;
+}
+
+.text-14-bold {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  line-height: 22px;
+  font-size: 14px;
+}
+
+.text-14-regular {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+  line-height: 22px;
+  font-size: 14px;
+}
+
+.text-14-md {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  line-height: 20px;
+  font-size: 12px;
+}
+
+.text-12-bold {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  line-height: 20px;
+  font-size: 12px;
+}
+
+.text-12-md {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  line-height: 20px;
+  font-size: 12px;
+}
+
+.text-12-regular {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+  line-height: 20px;
+  font-size: 12px;
+}/*# sourceMappingURL=output.css.map */

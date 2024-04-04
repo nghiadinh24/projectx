@@ -1,0 +1,217 @@
+// 1.color variable
+// 2.color-bg
+// 3.color-text
+// 4.color-icon
+//
+// 5.typography variable
+
+// color variable
+
+$secondary-gray: #232323;
+$primary-gray: #201f1e;
+$light-gray: #b1b1b1;
+$primary-color: #f05225;
+$primary-light-color: #fde6d7;
+$color-white: #ffff;
+
+// color-bg
+
+@mixin color-bg-secondary-gray {
+    background-color: $secondary-gray;
+}
+@mixin color-bg-gray {
+    background-color: $primary-gray;
+}
+@mixin color-bg-light-gray {
+    background-color: $light-gray;
+}
+@mixin color-bg-primary {
+    background-color: $primary-color;
+}
+@mixin color-bg-primary-light {
+    background-color: $primary-light-color;
+}
+@mixin color-bg-white {
+    background-color: $color-white;
+}
+
+// color-text
+
+@mixin color-text-secondary-gray {
+    color: $secondary-gray;
+}
+@mixin color-text-primary-gray {
+    color: $primary-gray;
+}
+@mixin color-text-light-gray {
+    color: $light-gray;
+}
+@mixin color-text-primary {
+    color: $primary-color;
+}
+@mixin color-text-white {
+    color: $color-white;
+}
+
+// color-icon
+
+@mixin color-icon-secondary-gray {
+    color: $secondary-gray;
+}
+@mixin color-icon-primary-gray {
+    color: $primary-gray;
+}
+@mixin color-icon-light-gray {
+    color: $light-gray;
+}
+@mixin color-icon-primary {
+    color: $primary-color;
+}
+@mixin color-icon-white {
+    color: $color-white;
+}
+
+// typography
+
+$fontFam: "Work Sans", sans-serif;
+$fontBold: 700;
+$fontMd: 500;
+$fontRe: 300;
+
+// typo class
+
+@mixin fontFamily {
+    font-family: $fontFam;
+}
+@mixin fontBold {
+    font-weight: $fontBold;
+}
+@mixin fontMd {
+    font-weight: $fontMd;
+}
+@mixin fontRe {
+    font-weight: $fontRe;
+}
+
+@mixin text-40-bold {
+    @include fontFamily();
+    @include fontBold();
+    line-height: 48px;
+    font-style: normal;
+    font-size: 40px;
+}
+@mixin text-40-regular {
+    @include fontFamily();
+    @include fontRe();
+    line-height: 48px;
+    font-style: normal;
+    font-size: 40px;
+}
+@mixin text-32-bold {
+    @include fontFamily();
+    @include fontBold();
+    line-height: 40px;
+    font-style: normal;
+    font-size: 32px;
+}
+@mixin text-32-regular {
+    @include fontFamily();
+    @include fontRe();
+    line-height: 40px;
+    font-style: normal;
+    font-size: 32px;
+}
+@mixin text-28-bold {
+    @include fontFamily();
+    @include fontBold();
+    line-height: 36px;
+    font-style: normal;
+    font-size: 28px;
+}
+@mixin text-28-regular {
+    @include fontFamily();
+    @include fontRe();
+    line-height: 36px;
+    font-style: normal;
+    font-size: 28px;
+}
+@mixin text-24-bold {
+    @include fontFamily();
+    @include fontBold();
+    line-height: 32px;
+    font-style: normal;
+    font-size: 24px;
+}
+@mixin text-24-regular {
+    @include fontFamily();
+    @include fontRe();
+    line-height: 32px;
+    font-style: normal;
+    font-size: 24px;
+}
+@mixin text-20-bold {
+    @include fontFamily();
+    @include fontBold();
+    line-height: 28px;
+    font-size: 20px;
+}
+@mixin text-20-regular {
+    @include fontFamily();
+    @include fontRe();
+    line-height: 28px;
+    font-size: 20px;
+}
+@mixin text-16-bold {
+    @include fontFamily();
+    @include fontBold();
+    line-height: 24px;
+    font-size: 16px;
+}
+@mixin text-16-md {
+    @include fontFamily();
+    @include fontMd();
+    line-height: 24px;
+    font-size: 16px;
+}
+@mixin text-16-regular {
+    @include fontFamily();
+    @include fontRe();
+    line-height: 24px;
+    font-size: 16px;
+}
+@mixin text-14-bold {
+    @include fontFamily();
+    @include fontBold();
+    line-height: 22px;
+    font-size: 14px;
+}
+@mixin text-14-md {
+    @include fontFamily();
+    @include fontMd();
+    line-height: 22px;
+    font-size: 14px;
+}
+@mixin text-14-regular {
+    @include fontFamily();
+    @include fontRe();
+    line-height: 22px;
+    font-size: 14px;
+}
+@mixin text-12-bold {
+    @include fontFamily();
+    @include fontBold();
+    line-height: 20px;
+    font-size: 12px;
+}
+@mixin text-12-md {
+    @include fontFamily();
+    @include fontMd();
+    line-height: 20px;
+    font-size: 12px;
+}
+@mixin text-12-regular {
+    @include fontFamily();
+    @include fontRe();
+    line-height: 20px;
+    font-size: 12px;
+}

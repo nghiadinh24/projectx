@@ -1,0 +1,125 @@
+@import "variable.scss";
+
+// color \\\
+
+.color-bg-secondary-gray {
+    @include color-bg-secondary-gray;
+}
+.color-bg-gray {
+    @include color-bg-gray;
+}
+.color-bg-light-gray {
+    @include color-bg-light-gray;
+}
+.color-bg-primary {
+    @include color-bg-primary;
+}
+.color-bg-light-primary {
+    @include color-bg-primary-light;
+}
+.color-bg-white {
+    @include color-bg-white;
+}
+
+// color-text
+
+.color-text-secondary-gray {
+    @include color-text-secondary-gray;
+}
+.color-text-primary-gray {
+    @include color-text-primary-gray;
+}
+.color-text-light-gray {
+    @include color-text-light-gray;
+}
+.color-text-primary {
+    @include color-text-primary;
+}
+.color-text-white {
+    @include color-text-white;
+}
+
+// color-icon
+
+.color-icon-secondary-gray {
+    @include color-icon-secondary-gray;
+}
+.color-icon-primary-gray {
+    @include color-icon-primary-gray;
+}
+.color-icon-light-gray {
+    @include color-icon-light-gray;
+}
+.color-icon-primary {
+    @include color-icon-primary;
+}
+.color-icon-white {
+    @include color-icon-white;
+}
+
+// typo
+
+.text-40-bold {
+    @include text-40-bold;
+}
+.text-40-regular {
+    @include text-40-regular;
+}
+
+.text-32-bold {
+    @include text-32-bold;
+}
+.text-32-regular {
+    @include text-32-regular;
+}
+
+.text-28-bold {
+    @include text-28-bold;
+}
+.text-28-regular {
+    @include text-28-regular;
+}
+
+.text-24-bold {
+    @include text-24-bold;
+}
+.text-24-regular {
+    @include text-24-regular;
+}
+
+.text-20-bold {
+    @include text-20-bold;
+}
+.text-20-regular {
+    @include text-20-regular;
+}
+
+.text-16-bold {
+    @include text-16-bold;
+}
+.text-16-regular {
+    @include text-16-regular;
+}
+.text-16-md {
+    @include text-16-md;
+}
+
+.text-14-bold {
+    @include text-14-bold;
+}
+.text-14-regular {
+    @include text-14-regular;
+}
+.text-14-md {
+    @include text-12-md;
+}
+
+.text-12-bold {
+    @include text-12-bold;
+}
+.text-12-md {
+    @include text-12-md;
+}
+.text-12-regular {
+    @include text-12-regular;
+}
