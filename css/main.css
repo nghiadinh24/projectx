@@ -26,25 +26,25 @@ ol, ul {
 
 /* responsive font */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 980px) {
     body .hero_main_text , .hero_second_text {
       font-size: 100px;
     }
   }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 980px) {
    body .hero_main_text , .hero_second_text {
       font-size: 72px;
     }
   }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 980px) {
     body .text-40-bold {
       font-size: 40px;
     }
   }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 980px) {
    body .text-40-bold {
       font-size: 32px;
     }
@@ -70,7 +70,7 @@ ol, ul {
 .text-container {
     display: flex;
     flex-direction: row;
-    gap: 1em;
+    gap: 16px;
     overflow: hidden;
     color: white;
     opacity: 0;
@@ -127,7 +127,19 @@ ol, ul {
 .navbar_link {
     padding: 16px 24px;
 }
-
+.navbar_toggle {
+    display: none;
+    border: none;
+    cursor: pointer;
+}
+@media screen and (max-width:980px) {
+    .navbar_item {
+        display: none;
+    }
+    .navbar_toggle{
+        display: block;
+    }
+}
 
 /* end header */
 
