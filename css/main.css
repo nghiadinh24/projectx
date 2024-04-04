@@ -215,6 +215,7 @@ ol, ul {
     justify-content: center;
     align-items: center;
     position: relative;
+    overflow: hidden;
 }
 .about_row {
     display: flex;
@@ -285,6 +286,7 @@ ol, ul {
 
 .contact_section {
     height: 100vh;
+    overflow: hidden;
 }
 
 .contact_title {
